@@ -299,7 +299,6 @@ public class Ex4 implements Ex4_GUI{
 			}
 
 			if(_mode.equals("Polygon")) {
-
 				LinkedList<Point2D> tmp = kodkod;
 				tmp.add(p);
 				gs = new Polygon2D(tmp);
